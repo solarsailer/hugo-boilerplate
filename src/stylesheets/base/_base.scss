@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------- *\
+ * Base.
+\* ---------------------------------------------------------- */
+
+body {
+  position: relative;
+
+  min-height: 100vh;
+  margin: 0;
+}
+
+::selection {
+  color: white;
+  background: $brand-color;
+}
